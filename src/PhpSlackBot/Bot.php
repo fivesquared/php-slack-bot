@@ -49,6 +49,8 @@ class Bot {
     }
 
     public function run() {
+        echo "New Things Here JSK!";
+
         if (!isset($this->params['token'])) {
             throw new \Exception('A token must be set. Please see https://my.slack.com/services/new/bot');
         }

@@ -102,7 +102,7 @@ class Bot {
         try{
             $client->close();
         }catch(Exception $cEx){
-            // nothing JSK
+            // nothing JSK... skip me
         }
         //
         $client->open();

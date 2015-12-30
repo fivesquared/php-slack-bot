@@ -101,7 +101,7 @@ class Bot {
         /* @fivesquared: Refresh client connection by first closing any current open connections */
         try{
             $client->close();
-        }catch($cEx){
+        }catch(Exception $cEx){
             // nothing JSK
         }
         //

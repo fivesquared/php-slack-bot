@@ -98,7 +98,13 @@ class Bot {
             }
         });
 
-
+        /* @fivesquared: Refresh client connection by first closing any current open connections */
+        try{
+            $client->close();
+        }catch($cEx){
+            // nothing JSK
+        }
+        //
         $client->open();
 
         /* Webserver */

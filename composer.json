@@ -1,6 +1,6 @@
 {
-    "name": "fivesquared/php-slack-bot",
-    "description": "Slack bot user written in PHP, originally from jclg/php-slack-bot",
+    "name": "fivesquared/advanced-php-slack-bot",
+    "description": "Advanced Slack bot user written in PHP, extending from jclg/php-slack-bot",
     "homepage": "https://github.com/fivesquared/php-slack-bot",
     "require": {
         "devristo/phpws": "dev-master",

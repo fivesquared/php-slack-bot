@@ -98,6 +98,7 @@ class Bot {
             }
         });
 
+        //
         $client->open();
 
         /* Webserver */
